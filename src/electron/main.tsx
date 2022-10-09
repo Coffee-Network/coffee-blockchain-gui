@@ -367,7 +367,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Chia Blockchain Wiki' }),
             click: () => {
               openExternal(
-                'https://github.com/silicoin-network/silicoin-blockchain/wiki',
+                'https://github.com/coffee-network/coffee-blockchain/wiki',
               );
             },
           },
@@ -383,7 +383,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Release Notes' }),
             click: () => {
               openExternal(
-                'https://github.com/silicoin-network/silicoin-blockchain/releases',
+                'https://github.com/coffee-network/coffee-blockchain/releases',
               );
             },
           },
@@ -391,7 +391,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
             click: () => {
               openExternal(
-                'https://github.com/silicoin-network/silicoin-blockchain/blob/master/CONTRIBUTING.md',
+                'https://github.com/coffee-network/coffee-blockchain/blob/master/CONTRIBUTING.md',
               );
             },
           },
@@ -426,14 +426,14 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
             click: () => {
               openExternal(
-                'https://github.com/silicoin-network/silicoin-blockchain/issues',
+                'https://github.com/coffee-network/coffee-blockchain/issues',
               );
             },
           },
           {
             label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
             click: () => {
-              openExternal('https://twitter.com/SilicoinProject');
+              openExternal('https://twitter.com/CoffeeProject');
             },
           },
         ],

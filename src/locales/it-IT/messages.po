@@ -32,7 +32,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Vuoi esplorare ulteriormente i blocchi della rete Silicion? Dai uno sguardo a <0>Silicion Explorer</0> creato da uno sviluppatore open source."
+msgstr "*Vuoi esplorare ulteriormente i blocchi della rete Coffee? Dai uno sguardo a <0>Coffee Explorer</0> creato da uno sviluppatore open source."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -61,7 +61,7 @@ msgstr ""
 #: src/electron/main.tsx:449
 #: src/electron/main.tsx:536
 msgid "About Chia Blockchain"
-msgstr "Informazioni sulla Blockchain di Silicion"
+msgstr "Informazioni sulla Blockchain di Coffee"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -251,7 +251,7 @@ msgstr "Blocco Iterazioni VDF"
 
 #: src/components/block/Block.jsx:341
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Blocco all'altezza {0} nella blockchain Silicion"
+msgstr "Blocco all'altezza {0} nella blockchain Coffee"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -356,11 +356,11 @@ msgstr ""
 
 #: src/electron/main.tsx:446
 msgid "Chia"
-msgstr "Silicion"
+msgstr "Coffee"
 
 #: src/electron/main.tsx:367
 msgid "Chia Blockchain Wiki"
-msgstr "Wiki della Blockchain Silicion"
+msgstr "Wiki della Blockchain Coffee"
 
 #: src/electron/main.tsx:407
 msgid "Chia Forks Calculator"
@@ -368,7 +368,7 @@ msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
 msgid "Chia Wallet"
-msgstr "Portafoglio Silicion"
+msgstr "Portafoglio Coffee"
 
 #: src/electron/main.tsx:399
 msgid "ChiaHub"
@@ -839,7 +839,7 @@ msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Inserisci le 24 parole mnemoniche che hai salvato per poter ripristinare il tuo wallet Silicion."
+msgstr "Inserisci le 24 parole mnemoniche che hai salvato per poter ripristinare il tuo wallet Coffee."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
@@ -857,7 +857,7 @@ msgstr "Errore"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Errore: impossibile inviare Silicion ad un indirizzo colorato. Perfavore inserisci un indirizzo Silicion."
+msgstr "Errore: impossibile inviare Coffee ad un indirizzo colorato. Perfavore inserisci un indirizzo Coffee."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1807,7 +1807,7 @@ msgstr "Plot che hanno passato il filtro"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "I plot sono dello spazio allocato sui tuoi dischi che viene usato per coltivare e guadagnare Silicion. <0>Per saperne di più</0>"
+msgstr "I plot sono dello spazio allocato sui tuoi dischi che viene usato per coltivare e guadagnare Coffee. <0>Per saperne di più</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:107
 msgid "Plotter"
@@ -2341,7 +2341,7 @@ msgstr "Lunghezza Intervallo di Spesa (numero di blocchi)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limite di Spesa (Silicion per intervallo): {0}"
+msgstr "Limite di Spesa (Coffee per intervallo): {0}"
 
 #: src/components/dashboard/DashboardSideBar.tsx:69
 #: src/components/stake/Stake.tsx:19
@@ -2395,7 +2395,7 @@ msgstr "Stato:"
 
 #: src/components/block/Block.jsx:338
 #~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Silicion blockchain"
+#~ msgstr "Sub Block at height {0} in the Coffee blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
@@ -2550,7 +2550,7 @@ msgstr "Questa funzione è disponibile solo sulla GUI."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Questo è l'ammontare di Silicion che puoi utilizzare attualmente per fare transazioni. Non include le ricompense coltivate in sospeso, transazioni in entrata in sospeso, e Silicion che tua hai appena speso ma non sono ancora nella blockchain."
+msgstr "Questo è l'ammontare di Coffee che puoi utilizzare attualmente per fare transazioni. Non include le ricompense coltivate in sospeso, transazioni in entrata in sospeso, e Coffee che tua hai appena speso ma non sono ancora nella blockchain."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2570,7 +2570,7 @@ msgstr "Questo è il tempo in cui il blocco è stato creato dal coltivatore, che
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Questo è l'ammontare totale di Silicion nella blockchain nell'attuale sottoblocco di picco che è controllato dalle tue chiavi private. Questo include le ricompense da farming congelate, ma non le transazioni in entrata e uscita che sono in attesa."
+msgstr "Questo è l'ammontare totale di Coffee nella blockchain nell'attuale sottoblocco di picco che è controllato dalle tue chiavi private. Questo include le ricompense da farming congelate, ma non le transazioni in entrata e uscita che sono in attesa."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2616,7 +2616,7 @@ msgstr "Questo commercio è stato incluso sulla blockchain a questa altezza di b
 
 #: src/components/app/AppTimeBombAlert.tsx:19
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Questa versione di Silicion non è più compatibile con la blockchain e non può coltivare in modo sicuro."
+msgstr "Questa versione di Coffee non è più compatibile con la blockchain e non può coltivare in modo sicuro."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2867,7 +2867,7 @@ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Vuoi guadagnare più Silicion? Aggingi più plot alla tua coltivazione."
+msgstr "Vuoi guadagnare più Coffee? Aggingi più plot alla tua coltivazione."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 msgid "Want to have a delay before the next plot starts?"
@@ -2900,7 +2900,7 @@ msgstr "Il peso è la difficoltà aggiunta in totale a tutti i sottoblocchi fino
 
 #: src/components/selectKey/SelectKey.tsx:183
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Benvenuto da Silicion. Per favore accedi con una chiave esistente, o crea una nuova chiave."
+msgstr "Benvenuto da Coffee. Per favore accedi con una chiave esistente, o crea una nuova chiave."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -3115,7 +3115,7 @@ msgstr "{currencyCode} Ricompense Blocco"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Silicion Farmati in Totale"
+msgstr "{currencyCode} Coffee Farmati in Totale"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

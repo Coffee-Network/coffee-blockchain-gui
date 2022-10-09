@@ -32,7 +32,7 @@ msgstr "(選用)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "＊想更進一步探索 Silicoin 區塊鍵？看看開源開發者打造的 <0>Silicoin Explorer</0>"
+msgstr "＊想更進一步探索 Coffee 區塊鍵？看看開源開發者打造的 <0>Coffee Explorer</0>"
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -61,7 +61,7 @@ msgstr ""
 #: src/electron/main.tsx:449
 #: src/electron/main.tsx:536
 msgid "About Chia Blockchain"
-msgstr "關於 Silicoin 區塊鏈"
+msgstr "關於 Coffee 區塊鏈"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -251,7 +251,7 @@ msgstr "區塊 VDF 疊代次數"
 
 #: src/components/block/Block.jsx:341
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Silicoin 區塊鏈區塊高度 {0}"
+msgstr "Coffee 區塊鏈區塊高度 {0}"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -356,11 +356,11 @@ msgstr "變更農會"
 
 #: src/electron/main.tsx:446
 msgid "Chia"
-msgstr "Silicoin"
+msgstr "Coffee"
 
 #: src/electron/main.tsx:367
 msgid "Chia Blockchain Wiki"
-msgstr "Silicoin 區塊鏈維基"
+msgstr "Coffee 區塊鏈維基"
 
 #: src/electron/main.tsx:407
 msgid "Chia Forks Calculator"
@@ -368,7 +368,7 @@ msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
 msgid "Chia Wallet"
-msgstr "Silicoin 錢包"
+msgstr "Coffee 錢包"
 
 #: src/electron/main.tsx:399
 msgid "ChiaHub"
@@ -839,7 +839,7 @@ msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "輸入你已存的 24 字助記符號以復原您的 Silicoin 錢包。"
+msgstr "輸入你已存的 24 字助記符號以復原您的 Coffee 錢包。"
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
@@ -857,7 +857,7 @@ msgstr "錯誤"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "錯誤：不能發送 Silicoin 到有色地址。請輸入 Silicoin 地址。"
+msgstr "錯誤：不能發送 Coffee 到有色地址。請輸入 Coffee 地址。"
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1807,7 +1807,7 @@ msgstr "已通過篩選耕地"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "耕地是在你硬碟上劃出的空間，用於耕種來賺取 Silicoin 。 <0>了解更多</0>"
+msgstr "耕地是在你硬碟上劃出的空間，用於耕種來賺取 Coffee 。 <0>了解更多</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:107
 msgid "Plotter"
@@ -2341,7 +2341,7 @@ msgstr "花費間隔長度 (區塊數量)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "花用限制（每間隔可用 Silicoin）：{0}"
+msgstr "花用限制（每間隔可用 Coffee）：{0}"
 
 #: src/components/dashboard/DashboardSideBar.tsx:69
 #: src/components/stake/Stake.tsx:19
@@ -2395,7 +2395,7 @@ msgstr "狀態："
 
 #: src/components/block/Block.jsx:338
 #~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Silicoin blockchain"
+#~ msgstr "Sub Block at height {0} in the Coffee blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
@@ -2550,7 +2550,7 @@ msgstr "這個功能只能在 GUI 中提供。"
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "這是你目前可用來交易的 Silicoin 數量。他不包括未結的耕種獎勵，未結的匯入交易和你剛花用，但還沒在區塊鏈內的 Silicoin 。"
+msgstr "這是你目前可用來交易的 Coffee 數量。他不包括未結的耕種獎勵，未結的匯入交易和你剛花用，但還沒在區塊鏈內的 Coffee 。"
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2570,7 +2570,7 @@ msgstr "這是塊農建立區塊的時間，這是在用時間證明最終確定
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "這是由你的私鑰控制的目前峰值子區塊中區塊鏈中 Silicoin 的總量。他包括凍結耕種獎勵，但不包括未結的匯入和匯出交易。"
+msgstr "這是由你的私鑰控制的目前峰值子區塊中區塊鏈中 Coffee 的總量。他包括凍結耕種獎勵，但不包括未結的匯入和匯出交易。"
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2616,7 +2616,7 @@ msgstr "此貿易已包含在區塊鏈中的這個區塊高度"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "此版本的 Silicoin 不再與區塊鏈相容，因此無法安全地進行耕種。"
+msgstr "此版本的 Coffee 不再與區塊鏈相容，因此無法安全地進行耕種。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2867,7 +2867,7 @@ msgstr "想加入農會？建立一個農場"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "想要獲得更多 Silicoin？增加更多耕地到你的農場。"
+msgstr "想要獲得更多 Coffee？增加更多耕地到你的農場。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 msgid "Want to have a delay before the next plot starts?"
@@ -2900,7 +2900,7 @@ msgstr "權重是所有包括這個的子區塊的總增加難度"
 
 #: src/components/selectKey/SelectKey.tsx:183
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "歡迎來到 Silicoin。請用已有的金鑰登入，或建立新的金鑰。"
+msgstr "歡迎來到 Coffee。請用已有的金鑰登入，或建立新的金鑰。"
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -3115,7 +3115,7 @@ msgstr "{currencyCode} 區塊獎勵"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} 已收耕 Silicoin"
+msgstr "{currencyCode} 已收耕 Coffee"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

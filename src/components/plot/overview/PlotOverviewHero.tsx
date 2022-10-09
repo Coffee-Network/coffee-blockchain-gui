@@ -38,7 +38,7 @@ export default function PlotOverviewHero() {
               }
               <Link
                 target="_blank"
-                href="https://github.com/silicoin-network/silicoin-blockchain/wiki/Network-Architecture"
+                href="https://github.com/coffee-network/coffee-blockchain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>

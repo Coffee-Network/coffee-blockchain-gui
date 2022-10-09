@@ -80,7 +80,7 @@ export default function PlotAddChooseSize(props: Props) {
           }
           <Link
             target="_blank"
-            href="https://github.com/silicoin-network/silicoin-blockchain/wiki/k-sizes"
+            href="https://github.com/coffee-network/coffee-blockchain/wiki/k-sizes"
           >
             Learn more
           </Link>

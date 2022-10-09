@@ -32,7 +32,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Vil du utforske Silicion bokkene? Sjekk ut <0>Silicion Utforsker</0> bygget av en åpen kildekode utvikler."
+msgstr "*Vil du utforske Coffee bokkene? Sjekk ut <0>Coffee Utforsker</0> bygget av en åpen kildekode utvikler."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -61,7 +61,7 @@ msgstr ""
 #: src/electron/main.tsx:449
 #: src/electron/main.tsx:536
 msgid "About Chia Blockchain"
-msgstr "Om Silicion Blockchain"
+msgstr "Om Coffee Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -251,7 +251,7 @@ msgstr "Blokk VDF Iterasjoner"
 
 #: src/components/block/Block.jsx:341
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Blokk i høyden {0} i Silicion blokkjede"
+msgstr "Blokk i høyden {0} i Coffee blokkjede"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -356,11 +356,11 @@ msgstr ""
 
 #: src/electron/main.tsx:446
 msgid "Chia"
-msgstr "Silicion"
+msgstr "Coffee"
 
 #: src/electron/main.tsx:367
 msgid "Chia Blockchain Wiki"
-msgstr "Silicion Blokkjede Wiki"
+msgstr "Coffee Blokkjede Wiki"
 
 #: src/electron/main.tsx:407
 msgid "Chia Forks Calculator"
@@ -368,7 +368,7 @@ msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
 msgid "Chia Wallet"
-msgstr "Silicion Pengbok"
+msgstr "Coffee Pengbok"
 
 #: src/electron/main.tsx:399
 msgid "ChiaHub"
@@ -839,7 +839,7 @@ msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Skriv inn det 24 ordene du har lagret for å gjenopprette din Silicion lommebok."
+msgstr "Skriv inn det 24 ordene du har lagret for å gjenopprette din Coffee lommebok."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
@@ -857,7 +857,7 @@ msgstr "Feil"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Feil: Kan ikke sende Silicion til farget adresse. Vennligst skriv inn en Silicion-adresse."
+msgstr "Feil: Kan ikke sende Coffee til farget adresse. Vennligst skriv inn en Coffee-adresse."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -2616,7 +2616,7 @@ msgstr "Denne handelen ble inkludert på blokkjeden i denne blokkhøyden"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Denne versjonen av Silicion er ikke lenger kompatibel med blokkjeden og kan ikke sikkert gjennomføre jobb."
+msgstr "Denne versjonen av Coffee er ikke lenger kompatibel med blokkjeden og kan ikke sikkert gjennomføre jobb."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2867,7 +2867,7 @@ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Vil du tjene mer Silicion? Legg til flere plott i gården din."
+msgstr "Vil du tjene mer Coffee? Legg til flere plott i gården din."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 msgid "Want to have a delay before the next plot starts?"
@@ -2900,7 +2900,7 @@ msgstr "Vekt er den totale tilsatte vanskelighetsgraden for alle underblokker op
 
 #: src/components/selectKey/SelectKey.tsx:183
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Velkommen til Silicion. Vennligst logg inn med en eksisterende nøkkel, eller opprett en ny nøkkel."
+msgstr "Velkommen til Coffee. Vennligst logg inn med en eksisterende nøkkel, eller opprett en ny nøkkel."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -3115,7 +3115,7 @@ msgstr "{currencyCode} blokk belønninger"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Total Silicion høstet"
+msgstr "{currencyCode} Total Coffee høstet"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

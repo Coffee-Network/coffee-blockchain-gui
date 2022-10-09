@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://www.silicoin.cc';
+const url = 'https://www.coffee.cc';
 
 type Props = {
   version: string;
@@ -114,7 +114,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) 2021 Silicoin Network</div>
+        <div className="copyright">Copyright (c) 2021 Coffee Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
@@ -144,7 +144,7 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <BugReport
-          href="https://github.com/silicoin-network/silicoin-blockchain/issues"
+          href="https://github.com/coffee-network/coffee-blockchain/issues"
           target="_blank"
         >
           Report an issue
