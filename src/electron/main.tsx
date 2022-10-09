@@ -375,7 +375,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
             click: () => {
               openExternal(
-                'https://www.sitnetwork.org/faq',
+                'https://www.farming.coffee/faq',
               );
             },
           },
@@ -396,7 +396,7 @@ if (!handleSquirrelEvent()) {
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'CoffeeHub' }),
+            label: i18n._(/* i18n */ { id: 'ChiaHub' }),
             click: () => {
               openExternal(
                 'https://farminghub.co/',
@@ -404,18 +404,18 @@ if (!handleSquirrelEvent()) {
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'Coffee Forks Calculator' }),
+            label: i18n._(/* i18n */ { id: 'Chia Forks Calculator' }),
             click: () => {
               openExternal(
-                'https://coffeeforkscalculator.com',
+                'https://chiaforkscalculator.com',
               );
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'Coffeeforks Blockchain' }),
+            label: i18n._(/* i18n */ { id: 'Chiaforks Blockchain' }),
             click: () => {
               openExternal(
-                'https://coffeeforksblockchain.com',
+                'https://chiaforksblockchain.com',
               );
             },
           },
@@ -430,12 +430,12 @@ if (!handleSquirrelEvent()) {
               );
             },
           },
-          {
-            label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
-            click: () => {
-              openExternal('https://twitter.com/CoffeeProject');
-            },
-          },
+          // {
+          //   label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
+          //   click: () => {
+          //     openExternal('https://twitter.com/CoffeeProject');
+          //   },
+          // },
         ],
       },
     ];

@@ -2301,7 +2301,7 @@ msgstr "跳過新增最終資料夾到收割機進行耕種"
 
 #: src/components/pool/PoolHero.tsx:26
 msgid "Smooth out your XCF farming rewards by joining a pool."
-msgstr "加入農會來獲得穩定的SIT獎勵。"
+msgstr "加入農會來獲得穩定的XCF獎勵。"
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
 msgid "Something went wrong"
