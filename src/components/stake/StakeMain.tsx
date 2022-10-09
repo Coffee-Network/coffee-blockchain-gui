@@ -159,8 +159,8 @@ export default function StakeMain() {
       }
       stakeCoins = temp
 
-      let total_xch: number = mojo_to_coffee(total);
-      return "Staking Balance: " + total_xch.toLocaleString();
+      let total_xcf: number = mojo_to_coffee(total);
+      return "Staking Balance: " + total_xcf.toLocaleString();
     }
 
 

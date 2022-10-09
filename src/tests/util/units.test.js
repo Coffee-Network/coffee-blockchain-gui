@@ -112,14 +112,14 @@ describe('units', () => {
     });
     it('updates an existing display', () => {
       units.setDisplay('coffee', {
-        format: '{amount} TXCH',
+        format: '{amount} TXCF',
         fractionDigits: 0,
       });
 
       const result = units.getDisplay('coffee');
 
       expect(result).toEqual({
-        format: '{amount} TXCH',
+        format: '{amount} TXCF',
         fractionDigits: 0,
       });
     });
