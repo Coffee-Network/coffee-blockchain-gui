@@ -4,7 +4,7 @@ import { Box, IconButton, Paper } from '@material-ui/core';
 import { Search as SearchIcon } from '@material-ui/icons';
 import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
-import { Flex, Form, InputBase } from '@chia/core';
+import { Flex, Form, InputBase } from '@coffee/core';
 import { useForm } from 'react-hook-form';
 
 import {
@@ -139,7 +139,7 @@ export default function PoolCollection() {
     <Flex flexDirection="column" gap={3}>
 
       <Typography variant="body1" color="textSecondary">
-        Enter your chia pool contract address and NFT Launcher ID to recover the missing SIT from your plot NFT.
+        Enter your coffee pool contract address and NFT Launcher ID to recover the missing SIT from your plot NFT.
       </Typography>
 
       <Form methods={methods} onSubmit={handleSearch}>

@@ -18,14 +18,14 @@ function getInstallerConfig () {
   return Promise.resolve({
     appDirectory: path.join(rootPath, appName + '-win32-x64'),
     authors: appName + ' Network',
-    version: process.env.CHIA_INSTALLER_VERSION,
+    version: process.env.COFFEE_INSTALLER_VERSION,
     noMsi: true,
     iconUrl: 'https://raw.githubusercontent.com/coffee-network/coffee-blockchain-gui/main/src/assets/img/coffee.ico',
     outputDirectory: path.join(outPath, 'windows-installer'),
     certificateFile: 'win_code_sign_cert.p12',
     certificatePassword: process.env.WIN_CODE_SIGN_PASS,
     exe: appName + '.exe',
-    setupExe: appName + 'Setup-' + process.env.CHIA_INSTALLER_VERSION + '.exe',
+    setupExe: appName + 'Setup-' + process.env.COFFEE_INSTALLER_VERSION + '.exe',
     setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'coffee.ico')
   })
 }

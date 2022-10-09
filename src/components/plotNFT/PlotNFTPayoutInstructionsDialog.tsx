@@ -9,7 +9,7 @@ import {
   Loading,
   TextField,
   Form,
-} from '@chia/core';
+} from '@coffee/core';
 import {
   Button,
   Dialog,

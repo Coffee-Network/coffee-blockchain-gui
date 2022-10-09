@@ -20,7 +20,7 @@ import {
   Loading,
   TooltipIcon,
   Flex,
-} from '@chia/core';
+} from '@coffee/core';
 import {
   unix_to_short_date,
   hex_to_array,
@@ -28,7 +28,7 @@ import {
   sha256,
 } from '../../util/utils';
 import { getBlockRecord, getBlock } from '../../modules/fullnodeMessages';
-import { mojo_to_chia } from '../../util/chia';
+import { mojo_to_coffee } from '../../util/coffee';
 import {
   calculatePoolReward,
   calculateBaseFarmerReward,
@@ -176,13 +176,13 @@ export default function Block() {
       ? blockRecord.weight - prevBlockRecord.weight
       : blockRecord?.weight ?? 0;
 
-  const poolReward = mojo_to_chia(calculatePoolReward(blockRecord.height));
-  const baseFarmerReward = mojo_to_chia(
+  const poolReward = mojo_to_coffee(calculatePoolReward(blockRecord.height));
+  const baseFarmerReward = mojo_to_coffee(
     calculateBaseFarmerReward(blockRecord.height),
   );
 
-  const chiaFees = blockRecord.fees
-    ? mojo_to_chia(BigInt(blockRecord.fees))
+  const coffeeFees = blockRecord.fees
+    ? mojo_to_coffee(BigInt(blockRecord.fees))
     : '';
 
   const rows = [
@@ -324,7 +324,7 @@ export default function Block() {
     },
     {
       name: <Trans>Fees Amount</Trans>,
-      value: chiaFees ? `${chiaFees} ${currencyCode}` : '',
+      value: coffeeFees ? `${coffeeFees} ${currencyCode}` : '',
       tooltip: (
         <Trans>
           The total transactions fees in this block. Rewarded to the farmer.
@@ -339,7 +339,7 @@ export default function Block() {
         title={
           <Back variant="h5">
             <Trans>
-              Block at height {blockRecord.height} in the Chia blockchain
+              Block at height {blockRecord.height} in the Coffee blockchain
             </Trans>
           </Back>
         }

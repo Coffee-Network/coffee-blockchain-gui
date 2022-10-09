@@ -1,5 +1,5 @@
 # coffee-blockchain
-![Alt text](https://github.com/coffee-network/coffee-blockchain-gui/blob/main/src/components/icons/images/chia_back2.svg)
+![Alt text](https://github.com/coffee-network/coffee-blockchain-gui/blob/main/src/components/icons/images/coffee_back2.svg)
 
 ## Installing
 

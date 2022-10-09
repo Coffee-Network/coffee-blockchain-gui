@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sr_SP\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: coffee-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-07-06 23:47\n"
 "Last-Translator: \n"
 "Language-Team: Serbian (Cyrillic)\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: coffee-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sr\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Chia-Network.coffee-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,7 +31,7 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+msgid "*Want to explore Coffee’s blocks further? Check out <0>Coffee Explorer</0> built by an open source developer."
 msgstr "* Желиш да сазнаш више о Coffee блоковима? Провери <0>Coffee претраживач</0> који је настао од стране програмера отвореног кода."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
@@ -60,7 +60,7 @@ msgstr ""
 
 #: src/electron/main.tsx:449
 #: src/electron/main.tsx:536
-msgid "About Chia Blockchain"
+msgid "About Coffee Blockchain"
 msgstr "О Coffee блокчејну"
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -250,7 +250,7 @@ msgid "Block VDF Iterations"
 msgstr "Блок VDF понављања"
 
 #: src/components/block/Block.jsx:341
-msgid "Block at height {0} in the Chia blockchain"
+msgid "Block at height {0} in the Coffee blockchain"
 msgstr "Блок на висини {0} у Coffee блокчејну"
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -355,27 +355,27 @@ msgstr ""
 #~ msgstr "Разговарај на KeyBase-у"
 
 #: src/electron/main.tsx:446
-msgid "Chia"
+msgid "Coffee"
 msgstr "Coffee"
 
 #: src/electron/main.tsx:367
-msgid "Chia Blockchain Wiki"
+msgid "Coffee Blockchain Wiki"
 msgstr "Вики за Coffee блокчејн"
 
 #: src/electron/main.tsx:407
-msgid "Chia Forks Calculator"
+msgid "Coffee Forks Calculator"
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "Chia Wallet"
+msgid "Coffee Wallet"
 msgstr "Чија Новчаник"
 
 #: src/electron/main.tsx:399
-msgid "ChiaHub"
+msgid "CoffeeHub"
 msgstr ""
 
 #: src/electron/main.tsx:415
-msgid "Chiaforks Blockchain"
+msgid "Coffeeforks Blockchain"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
@@ -740,7 +740,7 @@ msgstr ""
 #~ msgstr "Брисање ће трајно уклонити кључ са твог рачунара, побрини се да имаш резервне копије. Да ли сигурно желиш да наставиш?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:96
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Coffee Proof of Space plotter. If unsure, use the default Coffee Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:313
@@ -838,7 +838,7 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Coffee wallet."
 msgstr "Унесите мнемонику од 24 речи коју сте сачували да бисте вратили Чија новчаник."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
@@ -856,7 +856,7 @@ msgid "Error"
 msgstr "Грешка"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+msgid "Error: Cannot send coffee to coloured address. Please enter a coffee address."
 msgstr "Грешка: Не могу послати чија на обојену адресу. Унесите чија адресу."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
@@ -1806,7 +1806,7 @@ msgid "Plots Passed Filter"
 msgstr "Филтрирани плотови"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Coffee. <0>Learn more</0>"
 msgstr "Плотовима је додељен простор на твом хард-диску који се користи за фарму и Coffee зараду. <0> Сазнај више </0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:107
@@ -2340,7 +2340,7 @@ msgstr "Дужина интервала трошења (број блокова)
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (coffee per interval): {0}"
 msgstr "Ограничење потрошње (Coffee по интервалу): {0}"
 
 #: src/components/dashboard/DashboardSideBar.tsx:69
@@ -2394,8 +2394,8 @@ msgstr "Статус:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Coffee blockchain"
+#~ msgstr "Sub Block at height {0} in the Coffee blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
@@ -2549,7 +2549,7 @@ msgid "This feature is available only from the GUI."
 msgstr "Ова опција је доступна само кроз корисничко окружење."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Coffee that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Coffee that you have just spent but is not yet in the blockchain."
 msgstr "Ово је количина Coffee коју тренутно можеш користити за обављање трансакција. Не укључује награде за фармање на чекању, долазне трансакције на чекању и Coffee која је управо потрошена, али још увек није на блокчејну."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
@@ -2569,7 +2569,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Ово је време када је фармер креирао блок, и то пре него што је финализован доказом о времену"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of coffee in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "Ово је укупна количина Coffee на блокчејну у тренутном блоку којим управљају твоји приватни кључеви. Укључује замрзнуте награде за фарамање, али не долазне и одлазне трансакције."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
@@ -2615,7 +2615,7 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Ова трговина је укључена на блокчејну у овој висини блока"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Coffee is no longer compatible with the blockchain and can not safely farm."
 msgstr "Ова верзија Coffee није компатибилна са блокчејном и не може безбедно користити фарму."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
@@ -2644,8 +2644,8 @@ msgstr "За"
 msgid "Total Balance"
 msgstr "Укупно стање"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalCoffeeFarmed.tsx:15
+#~ msgid "Total Coffee Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2829,7 +2829,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.coffeeWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2866,7 +2866,7 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Coffee? Add more plots to your farm."
 msgstr "Желиш да зарадиш више? Додај још плотова у фарму."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
@@ -2899,7 +2899,7 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Тежина је укупна додата сложеност свих блокова до овог, укључујући и њега"
 
 #: src/components/selectKey/SelectKey.tsx:183
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Coffee. Please log in with an existing key, or create a new key."
 msgstr "Добродошли у Coffee. Пријави се помоћу постојећег кључа или креирај нови кључ."
 
 #: src/components/wallet/WalletAdd.tsx:66
@@ -2974,8 +2974,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Coffee application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Coffee application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -3032,7 +3032,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:177
 #: src/components/settings/ChangePassphrasePrompt.tsx:227
 #: src/components/settings/SetPassphrasePrompt.tsx:197
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Coffee will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:80
@@ -3113,8 +3113,8 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} награде од блокова"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalCoffeeFarmed.tsx:29
+msgid "{currencyCode} Total Coffee Farmed"
 msgstr "{currencyCode} укупно Coffee са фарме"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

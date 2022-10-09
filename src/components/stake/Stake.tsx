@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { Route, Switch, useRouteMatch } from 'react-router-dom';
-import { Flex, Link } from '@chia/core';
+import { Flex, Link } from '@coffee/core';
 import LayoutMain from '../layout/LayoutMain';
 
 import { StakeHeaderTarget } from './StakeHeader';

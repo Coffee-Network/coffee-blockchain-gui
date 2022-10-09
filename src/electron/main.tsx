@@ -11,8 +11,8 @@ import '../config/env';
 import handleSquirrelEvent from './handleSquirrelEvent';
 import config from '../config/config';
 import dev_config from '../dev_config';
-import chiaEnvironment from '../util/chiaEnvironment';
-import chiaConfig from '../util/config';
+import coffeeEnvironment from '../util/coffeeEnvironment';
+import coffeeConfig from '../util/config';
 import { i18n } from '../config/locales';
 import About from '../components/about/About';
 import packageJson from '../../package.json';
@@ -93,7 +93,7 @@ if (!handleSquirrelEvent()) {
 
   const ensureCorrectEnvironment = () => {
     // check that the app is either packaged or running in the python venv
-    if (!chiaEnvironment.guessPackaged() && !('VIRTUAL_ENV' in process.env)) {
+    if (!coffeeEnvironment.guessPackaged() && !('VIRTUAL_ENV' in process.env)) {
       console.log('App must be installed or in venv');
       app.quit();
       return false;
@@ -107,7 +107,7 @@ if (!handleSquirrelEvent()) {
   // if any of these checks return false, don't do any other initialization since the app is quitting
   if (ensureSingleInstance() && ensureCorrectEnvironment()) {
     // this needs to happen early in startup so all processes share the same global config
-    chiaConfig.loadConfig('mainnet');
+    coffeeConfig.loadConfig('mainnet');
     global.sharedObj = { local_test };
 
     const exitPyProc = (e) => {};
@@ -168,7 +168,7 @@ if (!handleSquirrelEvent()) {
       });
 
       // don't show remote daeomn detials in the title bar
-      if (!chiaConfig.manageDaemonLifetime()) {
+      if (!coffeeConfig.manageDaemonLifetime()) {
         mainWindow.webContents.on('did-finish-load', () => {
           mainWindow.setTitle(`${app.getName()} [${global.daemon_rpc_ws}]`);
         });
@@ -179,7 +179,7 @@ if (!handleSquirrelEvent()) {
       // }
       mainWindow.on('close', (e) => {
         // if the daemon isn't local we aren't going to try to start/stop it
-        if (decidedToClose || !chiaConfig.manageDaemonLifetime()) {
+        if (decidedToClose || !coffeeConfig.manageDaemonLifetime()) {
           return;
         }
         e.preventDefault();
@@ -231,8 +231,8 @@ if (!handleSquirrelEvent()) {
       createWindow();
       app.applicationMenu = createMenu();
       // if the daemon isn't local we aren't going to try to start/stop it
-      if (chiaConfig.manageDaemonLifetime()) {
-        chiaEnvironment.startChiaDaemon();
+      if (coffeeConfig.manageDaemonLifetime()) {
+        coffeeEnvironment.startCoffeeDaemon();
       }
     };
 
@@ -364,7 +364,7 @@ if (!handleSquirrelEvent()) {
         role: 'help',
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'Chia Blockchain Wiki' }),
+            label: i18n._(/* i18n */ { id: 'Coffee Blockchain Wiki' }),
             click: () => {
               openExternal(
                 'https://github.com/coffee-network/coffee-blockchain/wiki',
@@ -396,7 +396,7 @@ if (!handleSquirrelEvent()) {
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'ChiaHub' }),
+            label: i18n._(/* i18n */ { id: 'CoffeeHub' }),
             click: () => {
               openExternal(
                 'https://farminghub.co/',
@@ -404,18 +404,18 @@ if (!handleSquirrelEvent()) {
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'Chia Forks Calculator' }),
+            label: i18n._(/* i18n */ { id: 'Coffee Forks Calculator' }),
             click: () => {
               openExternal(
-                'https://chiaforkscalculator.com',
+                'https://coffeeforkscalculator.com',
               );
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'Chiaforks Blockchain' }),
+            label: i18n._(/* i18n */ { id: 'Coffeeforks Blockchain' }),
             click: () => {
               openExternal(
-                'https://chiaforksblockchain.com',
+                'https://coffeeforksblockchain.com',
               );
             },
           },
@@ -441,12 +441,12 @@ if (!handleSquirrelEvent()) {
     ];
 
     if (process.platform === 'darwin') {
-      // Chia Blockchain menu (Mac)
+      // Coffee Blockchain menu (Mac)
       template.unshift({
-        label: i18n._(/* i18n */ { id: 'Chia' }),
+        label: i18n._(/* i18n */ { id: 'Coffee' }),
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+            label: i18n._(/* i18n */ { id: 'About Coffee Blockchain' }),
             click: () => {
               openAbout();
             },
@@ -533,7 +533,7 @@ if (!handleSquirrelEvent()) {
           type: 'separator',
         },
         {
-          label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+          label: i18n._(/* i18n */ { id: 'About Coffee Blockchain' }),
           click() {
             openAbout();
           },

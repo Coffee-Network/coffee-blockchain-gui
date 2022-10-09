@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { Trans } from '@lingui/macro';
 import { useDispatch, useSelector } from 'react-redux';
 import moment from 'moment';
-import { State } from '@chia/core';
+import { State } from '@coffee/core';
 import type { RootState } from '../../../modules/rootReducer';
 import FarmCard from './FarmCard';
 import type Plot from '../../../types/Plot';

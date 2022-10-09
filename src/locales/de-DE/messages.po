@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: de_DE\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: coffee-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-07-06 23:47\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: coffee-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: de\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Chia-Network.coffee-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,7 +31,7 @@ msgid "(Optional)"
 msgstr "(Optional)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+msgid "*Want to explore Coffee’s blocks further? Check out <0>Coffee Explorer</0> built by an open source developer."
 msgstr "*Möchtest du mehr über Coffee's Blocks erfahren? Besuche <0>Coffee Explorer</0>, entwickelt von einem Open Source Entwickler."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
@@ -60,7 +60,7 @@ msgstr ""
 
 #: src/electron/main.tsx:449
 #: src/electron/main.tsx:536
-msgid "About Chia Blockchain"
+msgid "About Coffee Blockchain"
 msgstr "Mehr über die Coffee Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -250,7 +250,7 @@ msgid "Block VDF Iterations"
 msgstr "Block VDF Iterationen"
 
 #: src/components/block/Block.jsx:341
-msgid "Block at height {0} in the Chia blockchain"
+msgid "Block at height {0} in the Coffee blockchain"
 msgstr "Block der Höhe {0} in der Coffee Blockchain"
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -355,27 +355,27 @@ msgstr "Pool wechseln"
 #~ msgstr "Chatte auf KeyBase"
 
 #: src/electron/main.tsx:446
-msgid "Chia"
+msgid "Coffee"
 msgstr "Coffee"
 
 #: src/electron/main.tsx:367
-msgid "Chia Blockchain Wiki"
+msgid "Coffee Blockchain Wiki"
 msgstr "Coffee Blockchain Wiki"
 
 #: src/electron/main.tsx:407
-msgid "Chia Forks Calculator"
+msgid "Coffee Forks Calculator"
 msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "Chia Wallet"
+msgid "Coffee Wallet"
 msgstr "Coffee Wallet"
 
 #: src/electron/main.tsx:399
-msgid "ChiaHub"
+msgid "CoffeeHub"
 msgstr ""
 
 #: src/electron/main.tsx:415
-msgid "Chiaforks Blockchain"
+msgid "Coffeeforks Blockchain"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
@@ -746,7 +746,7 @@ msgstr ""
 #~ "Bist du sicher, dass du mit dem Löschen fortfahren möchtest?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:96
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Coffee Proof of Space plotter. If unsure, use the default Coffee Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:313
@@ -844,7 +844,7 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Coffee wallet."
 msgstr "Gib dein gespeichertes 24 Worte langes Mnemonic ein um dein Coffee Wallet wiederherzustellen."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
@@ -862,7 +862,7 @@ msgid "Error"
 msgstr "Fehler"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+msgid "Error: Cannot send coffee to coloured address. Please enter a coffee address."
 msgstr "Fehler: Coffee kann nicht zu der farbigen Adresse geschickt werden. Bitte gib eine Coffee Adresse ein."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
@@ -1812,7 +1812,7 @@ msgid "Plots Passed Filter"
 msgstr "Plots Filter bestanden"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Coffee. <0>Learn more</0>"
 msgstr "Plots werden Speicherplatz auf der Festplatte zugewiesen um Coffee zu farmen und zu erhalten <0>Lerne mehr</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:107
@@ -2348,7 +2348,7 @@ msgstr "Länge des Ausgabenintervalls (Anzahl der Blöcke)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (coffee per interval): {0}"
 msgstr "Ausgabenlimit (Coffee pro Intervall): {0}"
 
 #: src/components/dashboard/DashboardSideBar.tsx:69
@@ -2402,8 +2402,8 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Coffee blockchain"
+#~ msgstr "Sub Block at height {0} in the Coffee blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
@@ -2557,7 +2557,7 @@ msgid "This feature is available only from the GUI."
 msgstr "Diese Funktion ist ausschließlich in der GUI verfügbar."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Coffee that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Coffee that you have just spent but is not yet in the blockchain."
 msgstr "Dies ist die Menge an Coffee, mit der du derzeit Transaktionen durchführen kannst. Sie enthält keine ausstehenden Farmbelohnungen, ausstehende eingehende Transaktionen und Coffee, die du gerade ausgegeben hast, aber die noch nicht in der Blockchain sind."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
@@ -2577,7 +2577,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Das ist die Zeit, zu der der Block vom Farmer erstellt wurde, bevor er mit proof of time abgeschlossen wird"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of coffee in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "Dies ist die Gesamtmenge an Coffee in der Blockchaim im aktuellen Peak-Unterblock, die von deinen privaten Schlüsseln gesteuert wird. Es enthält eingefrorene Belohnungen, jedoch keine ausstehenden eingehenden und ausgehenden Transaktionen."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
@@ -2623,7 +2623,7 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Dieser Handel wurde auf der Blockchain in dieser Blockhöhe aufgenommen"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Coffee is no longer compatible with the blockchain and can not safely farm."
 msgstr "Diese Version von Coffee ist nicht mehr kompatibel mit der Blockchain und kann nicht sicher farmen."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
@@ -2652,8 +2652,8 @@ msgstr "Nach"
 msgid "Total Balance"
 msgstr "Gesamtes Guthaben"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalCoffeeFarmed.tsx:15
+#~ msgid "Total Coffee Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2837,7 +2837,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.coffeeWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2874,7 +2874,7 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Möchtest du einem Pool beitreten? Erstelle ein Plot-NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Coffee? Add more plots to your farm."
 msgstr "Willst du mehr Coffee verdienen? Füge mehr Plots deiner Farm hinzu."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
@@ -2907,7 +2907,7 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Das Gewicht ist die zusätzliche Gesamtschwierigkeit aller Unterblöcke bis einschließlich diesem"
 
 #: src/components/selectKey/SelectKey.tsx:183
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Coffee. Please log in with an existing key, or create a new key."
 msgstr "Willkommen bei Coffee. Melde dich mit einem bestehenden Schlüssel an oder erstelle einen neuen Schlüssel."
 
 #: src/components/wallet/WalletAdd.tsx:66
@@ -2982,8 +2982,8 @@ msgid "You need to claim your rewards first"
 msgstr "Du musst zuerst deine Belohnungen einfordern"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Coffee application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Coffee application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -3040,7 +3040,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:177
 #: src/components/settings/ChangePassphrasePrompt.tsx:227
 #: src/components/settings/SetPassphrasePrompt.tsx:197
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Coffee will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:80
@@ -3121,8 +3121,8 @@ msgstr "{0} Punkte {1} - vor {2} Stunden"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Block Belohnungen"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalCoffeeFarmed.tsx:29
+msgid "{currencyCode} Total Coffee Farmed"
 msgstr "{currencyCode} Gesamtes Coffee gefarmt"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

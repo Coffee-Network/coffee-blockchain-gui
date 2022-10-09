@@ -1,7 +1,7 @@
 import React from 'react';
 import { SvgIcon, SvgIconProps } from '@material-ui/core';
-import { ReactComponent as ChiaIcon } from './images/coffee_logo.svg';
+import { ReactComponent as CoffeeIcon } from './images/coffee_logo.svg';
 
 export default function Keys(props: SvgIconProps) {
-  return <SvgIcon component={ChiaIcon} viewBox="0 0 150 58" {...props} />;
+  return <SvgIcon component={CoffeeIcon} viewBox="0 0 150 58" {...props} />;
 }

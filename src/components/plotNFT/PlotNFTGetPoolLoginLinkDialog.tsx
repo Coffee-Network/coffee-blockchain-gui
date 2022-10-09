@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { t, Trans } from '@lingui/macro';
 import { Alert } from '@material-ui/lab';
 import styled from 'styled-components';
-import { CopyToClipboard, Flex, Link, Loading } from '@chia/core';
+import { CopyToClipboard, Flex, Link, Loading } from '@coffee/core';
 import {
   Button,
   Dialog,

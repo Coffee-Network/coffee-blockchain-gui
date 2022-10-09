@@ -12,8 +12,8 @@ import {
   Pool as PoolIcon,
   Settings as SettingsIcon,
   Stake as StakeIcon,
-} from '@chia/icons';
-import { Flex, SideBarItem } from '@chia/core';
+} from '@coffee/icons';
+import { Flex, SideBarItem } from '@coffee/core';
 import { logOut } from '../../modules/message';
 import { RootState } from '../../modules/rootReducer';
 

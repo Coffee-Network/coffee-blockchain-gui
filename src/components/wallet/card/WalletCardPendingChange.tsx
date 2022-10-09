@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import FarmCard from '../../farm/card/FarmCard';
 import useWallet from '../../../hooks/useWallet';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
-import { mojo_to_chia_string } from '../../../util/chia';
+import { mojo_to_coffee_string } from '../../../util/coffee';
 
 type Props = {
   wallet_id: number;
@@ -30,7 +30,7 @@ export default function WalletCardPendingChange(props: Props) {
       }
       value={
         <>
-          {mojo_to_chia_string(value)} {currencyCode}
+          {mojo_to_coffee_string(value)} {currencyCode}
         </>
       }
     />

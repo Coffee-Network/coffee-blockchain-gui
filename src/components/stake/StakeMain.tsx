@@ -7,13 +7,13 @@ import { Box, Paper } from '@material-ui/core';
 import { Button, Menu, MenuItem, Typography } from '@material-ui/core';
 import { ExpandMore } from '@material-ui/icons';
 
-import { Flex, Form, InputBase, Loading } from '@chia/core';
+import { Flex, Form, InputBase, Loading } from '@coffee/core';
 import styled from 'styled-components';
 
 import isNumeric from 'validator/es/lib/isNumeric';
 import { get_plots, get_coin_records_by_puzzle_hash } from '../../modules/fullnodeMessages';
 import { send_transaction, send_transaction_multi } from '../../modules/message';
-import { chia_to_mojo, mojo_to_chia } from '../../util/chia';
+import { coffee_to_mojo, mojo_to_coffee } from '../../util/coffee';
 import { address_to_puzzle_hash } from '../pool/address_to_puzzle_hash';
 import type { RootState } from '../../modules/rootReducer';
 import usePlots from '../../hooks/usePlots';
@@ -159,7 +159,7 @@ export default function StakeMain() {
       }
       stakeCoins = temp
 
-      let total_xch: number = mojo_to_chia(total);
+      let total_xch: number = mojo_to_coffee(total);
       return "Staking Balance: " + total_xch.toLocaleString();
     }
 
@@ -193,7 +193,7 @@ export default function StakeMain() {
         return;
       }
 
-      const amountValue = Number.parseFloat(chia_to_mojo(amount));
+      const amountValue = Number.parseFloat(coffee_to_mojo(amount));
       let address =  plotValue.split('&')[1];
       if (address.startsWith('0x') || address.startsWith('0X')) {
         address = address.slice(2);
@@ -233,7 +233,7 @@ export default function StakeMain() {
         alert("Please enter a valid numeric amount!!!");
         return;
       }
-      const inputValue = Number.parseFloat(chia_to_mojo(inputAmount));
+      const inputValue = Number.parseFloat(coffee_to_mojo(inputAmount));
 
       let newCoins = stakeCoins.sort(function(a, b){return b.amount - a.amount})
 
