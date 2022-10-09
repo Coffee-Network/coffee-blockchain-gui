@@ -1,8 +1,8 @@
 {
-    "name": "SIT",
-    "author": "xxx",
-    "description": "GUI for SIT Blockchain",
-    "productName": "SIT",
+    "name": "Coffee",
+    "author": "Coffee Network",
+    "description": "GUI for Coffee Blockchain",
+    "productName": "Coffee",
     "private": true,
     "homepage": "./",
     "main": "build/electron/main.js",

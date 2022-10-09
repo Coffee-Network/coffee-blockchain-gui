@@ -139,7 +139,7 @@ export default function PoolCollection() {
     <Flex flexDirection="column" gap={3}>
 
       <Typography variant="body1" color="textSecondary">
-        Enter your coffee pool contract address and NFT Launcher ID to recover the missing SIT from your plot NFT.
+        Enter your coffee pool contract address and NFT Launcher ID to recover the missing XCF from your plot NFT.
       </Typography>
 
       <Form methods={methods} onSubmit={handleSearch}>

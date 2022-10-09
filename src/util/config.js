@@ -16,7 +16,7 @@ function loadConfig(net) {
     const config_root_dir =
       'COFFEE_ROOT' in process.env
         ? process.env.COFFEE_ROOT
-        : path.join(os.homedir(), '.sit', net);
+        : path.join(os.homedir(), '.coffee', net);
     const config = yaml.load(
       fs.readFileSync(path.join(config_root_dir, 'config/config.yaml'), 'utf8'),
     );

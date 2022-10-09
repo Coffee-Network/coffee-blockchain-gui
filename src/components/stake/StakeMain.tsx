@@ -298,7 +298,7 @@ export default function StakeMain() {
 
 
           <Typography variant="body1" color="textSecondary">
-          Please select your staking address and send SIT to it.
+          Please select your staking address and send XCF to it.
           </Typography>
 
 

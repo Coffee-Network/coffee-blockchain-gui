@@ -95,4 +95,3 @@ src/locales/**/*.js
 daemon/
 win_code_sign_cert.p12
 Coffee-darwin-x64/
-SIT-darwin-x64/

@@ -13,7 +13,7 @@ function getInstallerConfig () {
   const rootPath = path.join('./')
   const outPath = path.join(rootPath, 'release-builds')
 
-  const appName = "SIT"
+  const appName = "Coffee"
 
   return Promise.resolve({
     appDirectory: path.join(rootPath, appName + '-win32-x64'),
