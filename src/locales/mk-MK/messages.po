@@ -23,7 +23,7 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Coffee’s blocks further? Check out <0>Coffee Explorer</0> built by an open source developer."
+msgid "*Want to explore Coffee’s blocks further? Check out <0>AllTheBlocks</0> built by an open source developer."
 msgstr "*Дали сакате да истражувате низ Чиа блокчејн? Погледнете го <0>Чиа Пребарувачот</0>, развиен од девелопер со отворен код."
 
 #: src/components/plot/add/PlotAddNFT.tsx:127
@@ -313,7 +313,7 @@ msgid "Coffee"
 msgstr "Чиа"
 
 #: src/electron/main.tsx:358
-msgid "Coffee Blockchain Wiki"
+msgid "Coffee Blockchain GitHub"
 msgstr "Чиа Блокчејн Википедиа"
 
 #: src/components/wallet/standard/WalletStandard.tsx:647
@@ -1703,7 +1703,7 @@ msgid "Relative Lock Height"
 msgstr ""
 
 #: src/electron/main.tsx:374
-msgid "Release Notes"
+msgid "Coffee Release Notes"
 msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:36

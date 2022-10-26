@@ -68,7 +68,7 @@ export default function FarmLatestBlockChallenges() {
             href="https://alltheblocks.net/coffee"
             target="_blank"
           >
-            Coffee Explorer
+            AllTheBlocks
           </Link>{' '}
           built by an open source developer.
         </Trans>

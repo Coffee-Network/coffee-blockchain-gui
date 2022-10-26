@@ -31,7 +31,7 @@ msgid "(Optional)"
 msgstr "（可选）"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Coffee’s blocks further? Check out <0>Coffee Explorer</0> built by an open source developer."
+msgid "*Want to explore Coffee’s blocks further? Check out <0>AllTheBlocks</0> built by an open source developer."
 msgstr "* 想要进一步了解Coffee？来看看一位开源开发者创建的 <0>Coffee区块浏览器</0>。"
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
@@ -359,7 +359,7 @@ msgid "Coffee"
 msgstr "Coffee"
 
 #: src/electron/main.tsx:367
-msgid "Coffee Blockchain Wiki"
+msgid "Coffee Blockchain GitHub"
 msgstr "Coffee区块链项目维基"
 
 #: src/electron/main.tsx:407
@@ -2072,7 +2072,7 @@ msgid "Relative Lock Height"
 msgstr "相对锁高度"
 
 #: src/electron/main.tsx:383
-msgid "Release Notes"
+msgid "Coffee Release Notes"
 msgstr "版本发布说明"
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:114

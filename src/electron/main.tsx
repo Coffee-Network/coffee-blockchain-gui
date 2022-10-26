@@ -364,10 +364,10 @@ if (!handleSquirrelEvent()) {
         role: 'help',
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'Coffee Blockchain Wiki' }),
+            label: i18n._(/* i18n */ { id: 'Coffee Blockchain GitHub' }),
             click: () => {
               openExternal(
-                'https://github.com/coffee-network/coffee-blockchain/wiki',
+                'https://github.com/coffee-network/coffee-blockchain/',
               );
             },
           },
@@ -380,7 +380,7 @@ if (!handleSquirrelEvent()) {
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'Release Notes' }),
+            label: i18n._(/* i18n */ { id: 'Coffee Release Notes' }),
             click: () => {
               openExternal(
                 'https://github.com/coffee-network/coffee-blockchain/releases',
@@ -396,26 +396,42 @@ if (!handleSquirrelEvent()) {
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'ChiaHub' }),
+            label: i18n._(/* i18n */ { id: 'Swap Menu Exchange' }),
             click: () => {
               openExternal(
-                'https://farminghub.co/',
+                'https://swap.menu/',
               );
             },
           },
+          // {
+          //   label: i18n._(/* i18n */ { id: 'ChiaHub' }),
+          //   click: () => {
+          //     openExternal(
+          //       'https://farminghub.co/',
+          //     );
+          //   },
+          // },
           {
             label: i18n._(/* i18n */ { id: 'Chia Forks Calculator' }),
             click: () => {
               openExternal(
-                'https://chiaforkscalculator.com',
+                'https://chiaforkscalculator.com/coffee',
               );
             },
           },
+          // {
+          //   label: i18n._(/* i18n */ { id: 'Chiaforks Blockchain' }),
+          //   click: () => {
+          //     openExternal(
+          //       'https://chiaforksblockchain.com',
+          //     );
+          //   },
+          // },
           {
-            label: i18n._(/* i18n */ { id: 'Chiaforks Blockchain' }),
+            label: i18n._(/* i18n */ { id: 'Coffee on AllTheBlocks' }),
             click: () => {
               openExternal(
-                'https://chiaforksblockchain.com',
+                'https://alltheblocks.net/coffee',
               );
             },
           },

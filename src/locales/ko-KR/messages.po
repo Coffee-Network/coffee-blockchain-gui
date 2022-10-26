@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Coffee’s blocks further? Check out <0>Coffee Explorer</0> built by an open source developer."
-msgstr "Coffee의 블록을 더 탐험하고 싶으십니까? 오픈 소스 개발자가 만든 <0>Coffee Explorer</0>를 확인하세요."
+msgid "*Want to explore Coffee’s blocks further? Check out <0>AllTheBlocks</0> built by an open source developer."
+msgstr "Coffee의 블록을 더 탐험하고 싶으십니까? 오픈 소스 개발자가 만든 <0>AllTheBlocks</0>를 확인하세요."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -359,7 +359,7 @@ msgid "Coffee"
 msgstr "치아"
 
 #: src/electron/main.tsx:367
-msgid "Coffee Blockchain Wiki"
+msgid "Coffee Blockchain GitHub"
 msgstr "치아 블록체인 위키"
 
 #: src/electron/main.tsx:407
@@ -2084,7 +2084,7 @@ msgid "Relative Lock Height"
 msgstr ""
 
 #: src/electron/main.tsx:383
-msgid "Release Notes"
+msgid "Coffee Release Notes"
 msgstr "릴리스 노트"
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:114

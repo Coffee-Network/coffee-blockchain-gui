@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr "(nem kötelező)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Coffee’s blocks further? Check out <0>Coffee Explorer</0> built by an open source developer."
-msgstr "Fel szeretnéd fedezni a Coffee rendszerét bővebben? Nézd meg a <0> Coffee Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
+msgid "*Want to explore Coffee’s blocks further? Check out <0>AllTheBlocks</0> built by an open source developer."
+msgstr "Fel szeretnéd fedezni a Coffee rendszerét bővebben? Nézd meg a <0> AllTheBlockst</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -359,7 +359,7 @@ msgid "Coffee"
 msgstr "Coffee"
 
 #: src/electron/main.tsx:367
-msgid "Coffee Blockchain Wiki"
+msgid "Coffee Blockchain GitHub"
 msgstr "Coffee Blokklánc Wiki"
 
 #: src/electron/main.tsx:407
@@ -2084,7 +2084,7 @@ msgid "Relative Lock Height"
 msgstr ""
 
 #: src/electron/main.tsx:383
-msgid "Release Notes"
+msgid "Coffee Release Notes"
 msgstr "Kiadási megjegyzések"
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:114

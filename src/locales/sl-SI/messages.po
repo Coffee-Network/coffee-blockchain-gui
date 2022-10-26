@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Coffee’s blocks further? Check out <0>Coffee Explorer</0> built by an open source developer."
-msgstr "*Želite raziskovati Coffee bloke? Preverite odprtokodni <0>Coffee Explorer</0>."
+msgid "*Want to explore Coffee’s blocks further? Check out <0>AllTheBlocks</0> built by an open source developer."
+msgstr "*Želite raziskovati Coffee bloke? Preverite odprtokodni <0>AllTheBlocks</0>."
 
 #: src/components/plot/add/PlotAddNFT.tsx:127
 msgid "+ Add New Plot NFT"
@@ -313,8 +313,8 @@ msgid "Coffee"
 msgstr "Coffee"
 
 #: src/electron/main.tsx:358
-msgid "Coffee Blockchain Wiki"
-msgstr "Coffee blockchain wiki"
+msgid "Coffee Blockchain GitHub"
+msgstr "Coffee Blockchain GitHub"
 
 #: src/components/wallet/standard/WalletStandard.tsx:647
 msgid "Coffee Wallet"
@@ -1703,7 +1703,7 @@ msgid "Relative Lock Height"
 msgstr ""
 
 #: src/electron/main.tsx:374
-msgid "Release Notes"
+msgid "Coffee Release Notes"
 msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:36

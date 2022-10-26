@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Coffee’s blocks further? Check out <0>Coffee Explorer</0> built by an open source developer."
-msgstr "*チアのブロックをさらに調べたいですか？オープンソース開発者に提供していただいた <0>Coffee Explorer</0> を是非ご覧ください。"
+msgid "*Want to explore Coffee’s blocks further? Check out <0>AllTheBlocks</0> built by an open source developer."
+msgstr "*チアのブロックをさらに調べたいですか？オープンソース開発者に提供していただいた <0>AllTheBlocks</0> を是非ご覧ください。"
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -359,7 +359,7 @@ msgid "Coffee"
 msgstr "チア"
 
 #: src/electron/main.tsx:367
-msgid "Coffee Blockchain Wiki"
+msgid "Coffee Blockchain GitHub"
 msgstr "チアブロックチェーンの Wiki"
 
 #: src/electron/main.tsx:407
@@ -2084,7 +2084,7 @@ msgid "Relative Lock Height"
 msgstr ""
 
 #: src/electron/main.tsx:383
-msgid "Release Notes"
+msgid "Coffee Release Notes"
 msgstr "リリースノート"
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:114
