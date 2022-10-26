@@ -273,7 +273,7 @@ export default function Block() {
       value: (
         <Link
           target="_blank"
-          href={`https://tokendock.io`}
+          href={`https://alltheblocks.net/coffee`}
         >
           {currencyCode
             ? toBech32m(
@@ -289,7 +289,7 @@ export default function Block() {
       value: (
         <Link
           target="_blank"
-          href={`https://tokendock.io`}
+          href={`https://alltheblocks.net/coffee`}
         >
           {currencyCode
             ? toBech32m(

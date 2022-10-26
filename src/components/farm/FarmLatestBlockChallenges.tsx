@@ -65,7 +65,7 @@ export default function FarmLatestBlockChallenges() {
           *Want to explore Coffee’s blocks further? Check out{' '}
           <Link
             color="primary"
-            href="https://tokendock.io"
+            href="https://alltheblocks.net/coffee"
             target="_blank"
           >
             Coffee Explorer
