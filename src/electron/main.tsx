@@ -375,7 +375,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
             click: () => {
               openExternal(
-                'https://www.farming.coffee/faq',
+                'https://www.farming.coffee',
               );
             },
           },
